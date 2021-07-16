@@ -15,7 +15,12 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
+  loading: {
+    color: 'DodgerBlue',
+    height: '2px',
+    continuous: true,
+    duration: 3000
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'element-ui/lib/theme-chalk/index.css',

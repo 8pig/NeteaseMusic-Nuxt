@@ -28,12 +28,10 @@ export default {
         float: left;
         height: 70px;
         font-size: 14px;
-        text-align: center;
-
+        overflow: hidden;
         a {
-          padding: 0 19px;
-          text-align: center;
-          display: block;
+          float: left;
+          padding:0 19px;
           width: 100%;
           line-height: 70px;
         }
